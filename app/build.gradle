@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion "23.0.3"
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "cc.cume"
-        minSdkVersion 14
-        targetSdkVersion 23
+        minSdkVersion 21
+        targetSdkVersion 21
 
         ndk {
             moduleName "SeetafaceSo"

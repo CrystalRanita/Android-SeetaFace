@@ -6,9 +6,12 @@
 /.idea/workspace.xml
 .DS_Store
 /build
+/app/build
+/app/src/main/obj
 /captures
 .externalNativeBuild
 /.gradle/
 /.idea/
 /app/src/main/assets/detect_face.tflite
 /app/src/main/assets/fmobilenet.tflite
+/
