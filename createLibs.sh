@@ -14,10 +14,10 @@ cp Android.mk_armeabi-v7a Android.mk
 cp Application.mk_armeabi-v7a Application.mk
 ndk-build -j8
 
-echo "build armeabi"
-cp Android.mk_armeabi Android.mk
-cp Application.mk_armeabi Application.mk
-ndk-build -j8
+echo "build armeabi skip"
+# cp Android.mk_armeabi Android.mk
+# cp Application.mk_armeabi Application.mk
+# ndk-build -j8
 
 cd ${CURRENT_DIR}
 git checkout app/src/main/jni/Android.mk
